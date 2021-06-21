@@ -1,0 +1,105 @@
+
+<!-- Doctype declaration is an instruction to the browser about what version of html the page is written in -->
+<!-- Boilerplate code are section of code that are repeated in multiple places with little or no variation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+<center>
+    
+    <img src="https://images.unsplash.com/photo-1531265726475-52ad60219627?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="sorry">
+<!-- below is the great application of table to add image and text in a same row in different cells -->
+    <table  >
+        <tr>
+            <td><img src="nikita14.png" alt="not found"></td>
+            
+                <td><p><em>Pursuing bachlors degree in computer engineering</em></p>
+                <p><em>from</em><strong> Shree L.R. Tiwari College of Engineering</strong></p></td>
+            
+        </tr>
+    </table>
+    
+
+    <!-- hr is horizontal rule or a thematic break in a html page to divide or separate the document section  -->
+    <!-- noshade attribute is a boolean value which is used to show horizontal solid line instead of shaded line -->
+    <!-- size is the pixel of the line -->
+    <hr size="3" noshade> 
+    <!-- emoji:- right click taskview symbol and then enable show touch keyboard button and then click at emoji  -->
+    <h1>Nikita Jha 😇 </h1>
+
+    
+    <table border="1" >
+        <!-- there is need of table header- thead tag and table body tbody tag so that we can isolate them to style them differently-->
+        <thead>
+            <tr>
+                <th>Contact no.</th>
+                <th>Email address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8779491768</td>
+                <td>nikitanandujha@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+    <!-- we can open the link in new tab using control and click together -->
+    <strong><a href="https://www.linkedin.com/in/nikita-jha-89b2a7189/" >Linkedin profile </a> </strong>
+    <hr size="3" >
+    <!-- diff btw strong and bold:- strong is used to represent an important or serious word(appears bold) whereas bold tag is just used for styling purpose. -->
+    <!-- diff btw emphasis (em tag) and italic(i tag):- emphasis is used when the word is pronounced with an emphasis (appears italic) whereas italic tag is just used for styling purpose. -->
+    <p>This is <b>bold</b> and this is <strong>strong</strong></p>
+    <p>This is <i>italic</i> and this is <em>emphasis</em></p>
+    <!-- nested table below: to make it first create a table of one row with two cell in it(2 td) and then add the syntax of your table(<table>...</table>) in each td-->
+    <table cellspacing="8px">
+        <tr>
+            <td>
+                <table> 
+                    <thead>
+                        <tr>
+                            <th>Contact no.</th>
+                            <th>Email address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8779491768</td>
+                            <td>nikitanandujha@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Contact no.</th>
+                            <th>Email address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8779491768</td>
+                            <td>nikitanandujha@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+    
+            </td>
+        </tr>
+    </table>
+
+</center>
+</body>
+</html>
